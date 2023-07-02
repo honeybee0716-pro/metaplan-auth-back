@@ -1,10 +1,11 @@
 {
-  "name": "metaplan-auth-bnd",
+  "name": "metaplan_auth_backend",
   "version": "1.0.0",
   "description": "This is a authentication pacakage for nest backend in metaplan app.",
   "main": "dist/index.ts",
   "files": [
-    "src"
+    "src",
+    "tsconfig.json"
   ],
   "scripts": {
     "test": "npm run test",
