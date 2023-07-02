@@ -1,0 +1,44 @@
+{
+  "name": "metaplan-auth-bnd",
+  "version": "1.0.0",
+  "description": "This is a authentication pacakage for nest backend in metaplan app.",
+  "main": "dist/index.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "npm run test",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softangel0088/metaplan-auth-back.git"
+  },
+  "keywords": [
+    "metaplan",
+    "auth",
+    "back"
+  ],
+  "author": "J.B-Star",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/softangel0088/metaplan-auth-back/issues"
+  },
+  "homepage": "https://github.com/softangel0088/metaplan-auth-back#readme",
+  "dependencies": {
+    "@golevelup/nestjs-stripe": "^0.6.1",
+    "@nestjs/config": "^3.0.0",
+    "@nestjs/swagger": "^7.0.12",
+    "bcrypt": "^5.1.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "express": "^4.18.2",
+    "jose": "^4.14.4",
+    "stripe": "^11.12.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.17"
+  }
+}
